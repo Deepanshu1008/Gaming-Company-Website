@@ -1,0 +1,24 @@
+.navbar{
+  background-color: teal;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: white !important;
+}
+.vh-100{
+  margin-top: 60px;
+
+}
+body{background-image: url("images/games-img.jpg");}

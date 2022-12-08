@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 Gaming Company</title>
+  <!-- favicon icon-->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Peralta&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.css" rel="stylesheet" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+</head>
+
+<body>
+
+
+  <!-- title section -->
+
+  <section class="colored-section" id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+        <a class="navbar-brand" href="index.html">D3 Gaming</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon">...</span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="/signup">SignUP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="/login">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutUs">About us </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contactUs">Contact us</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+  </section>
+  <!-- MD Bootstrap -->
+  <!-- Carousel wrapper -->
+  <div id="carouselVideoExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-mdb-target="#carouselVideoExample" data-mdb-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-mdb-target="#carouselVideoExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-mdb-target="#carouselVideoExample" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Inner -->
+    <div class="carousel-inner">
+      <!-- Single item -->
+      <div class="carousel-item active">
+        <video class="img-fluid" autoplay loop muted>
+          <source src="/videos/d3getready.mp4" type="video/mp4" />
+        </video>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Experience the thrill with the best ones around the world</h5>
+          <p>
+
+          </p>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <video class="img-fluid" autoplay loop muted>
+          <source src="/videos/Gaming.mp4" type="video/mp4" />
+        </video>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Are you ready for the action</h5>
+          <p>
+
+          </p>
+        </div>
+      </div>
+
+      <!-- Single item -->
+      <div class="carousel-item">
+        <video class="img-fluid" autoplay loop muted>
+          <source src="/videos/Controller.mp4" type="video/mp4" />
+        </video>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Join and Register today!</h5>
+          <p>
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Inner -->
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselVideoExample" data-mdb-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-mdb-target="#carouselVideoExample" data-mdb-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Carousel wrapper -->
+
+  <!--our tournament -->
+
+  <section class="tournament-section" id="tournament">
+
+    <h1 class="section-heading"><strong>OUR TOURNAMENTS</strong></h1>
+
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 ">
+        <div class="card ">
+          <div class="card-header">
+
+            <h3>BGMI CUP</h3>
+            <h5 class="price">•Entry Fee:NIL •🏆 ₹1200</h5>
+
+
+          </div>
+          <div class="card-body">
+            <img src="/images/bgmi.webp" alt="BGMI_Image" class="tournament-images">
+
+            <button class="btn btn-lg btn-block btn-dark" type="button">Register</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>COC GrandSlam</h3>
+            <h5 class="price">•Entry Fee:NIL •🏆 ₹1000</h5>
+          </div>
+          <div class="card-body">
+            <img src="/images/coc.webp" alt="COC_Image" class="tournament-images">
+            <button class="btn btn-lg btn-block btn-dark" type="button">Register</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>DOTA2 Cup</h3>
+            <h5 class="price">•Entry Fee:NIL •🏆 ₹1200</h5>
+          </div>
+          <div class="card-body">
+            <img src="/images/dota2.jpg" alt="DOTA2_Image" class="tournament-images">
+            <button class="btn btn-lg btn-block btn-dark" type="button">Register</button>
+
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Fortnite Cup</h3>
+            <h5 class="price">•Entry Fee:NIL •🏆 ₹1500</h5>
+          </div>
+          <div class="card-body">
+            <img src="/images/fortnite.webp" alt="BGMI_Image" class="tournament-images">
+            <button class="btn btn-lg btn-block btn-dark" type="button">Register</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Valorant Cup</h3>
+            <h5 class="price">•Entry Fee: NIL •🏆 ₹2000</h5>
+          </div>
+          <div class="card-body">
+            <img src="/images/valorant.webp" alt="BGMI_Image" class="tournament-images">
+            <button class="btn btn-lg btn-block btn-dark" type="button">Register</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Legends Cup</h3>
+            <h5 class="price">•Entry Fee:NIL •🏆 ₹1100</h5>
+          </div>
+          <div class="card-body">
+            <img src="/images/lol.jpg" alt="BGMI_Image" class="tournament-images">
+            <button class="btn btn-lg btn-block btn-dark" type="button">Register</button>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+  <!-- Press -->
+  <section class="colored-section" id="press">
+    <h3 class="section-heading"><strong>Over 50+ organizers trust D3 Gaming Company</strong></h1>
+
+      <center>
+        <div>
+          <img class="press-logo" src="/images/supercell.png" alt="tc-logo">
+          <img class="press-logo" src="/images/riot.png" alt="tnw-logo">
+          <img class="press-logo" src="/images/epicgames.png" alt="biz-insider-logo">
+          <img class="press-logo" src="/images/rovio.png" alt="mashable-logo">
+        </div>
+        <div>
+          <img class="press-logo" src="/images/easports.png" alt="mashable-logo">
+          <img class="press-logo" src="/images/nintendo.png" alt="mashable-logo">
+          <img class="press-logo" src="/images/xbox.png" alt="mashable-logo">
+          <img class="press-logo" src="/images/sony.png" alt="mashable-logo">
+        </div>
+
+      </center>
+
+  </section>
+
+  <!--about us section-->
+  <section id="aboutUs">
+    <div class="container-fluid">
+      <div class="row text center">
+        <div class="col-lg-12 wow fadeIn animated" style=" visibility:visible; animation-name:fadeIn;">
+          <h2 class="about-us">About Us</h2>
+          <p class="aboutUs-text">
+            The company is a leading esports and gaming venture in India,
+            renowned for hosting major esports tournaments.<br>
+            MVP Championship,
+            MVP League. D3 Gaming also has experience in organising esports tournaments<br> — DOTA2, FIFA20 and PUBG Mobile — Jaypee University of Engineering & Technology.
+          </p>
+          <br>
+          <h3>D3 Gaming</h3>
+          <hr class="colored">
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <i class="fa fa-gamepad fa-4x icon"></i>
+          <h2 class="big-heading">Coaching & Training</h2>
+          <p class="big-heading-para">Esports is one of the fastest growing industries in the world and more and more people are looking toward esports as a career option.
+            Global eSports works with some of the best players and coaches in the world across various titles and with over 100+ years of gaming experience.
+            GE has knowledge, resources and accolades in esports and content. GE is the right catalyst to help you grow in both esports & content
+          </p>
+        </div>
+        <div class="col-md-6">
+          <i class="fa fa-trophy fa-4x icon"></i>
+          <h2 class="big-heading">Tournaments & Events</h2>
+          <p class="big-heading-para">GE organizes community tournaments internationally for gamers along with Hosting online and offline Events, LAN Parties,
+            Pubstomps (Viewing / Watch Parties), Game launches, Experience Zones, Themed Parties.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <a href="mailto:deepanshudp10@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
+      <p>© Copyright 2022 D3 Gaming Company</p>
+      <p>All right reserved</p>
+    </div>
+  </footer>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/5.0.0/mdb.min.js"></script>
+  <script src="login.js" charset="utf-8"></script>
+</body>
+
+</html>

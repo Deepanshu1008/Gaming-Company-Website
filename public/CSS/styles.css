@@ -1,0 +1,169 @@
+.Namehead{
+  padding: 2px;
+  margin: auto;
+  text-align: center;
+}
+/* Navigation Bar */
+
+.navbar {
+  /* padding: 0 0 4.5rem; */
+  background-color: teal;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+  color: white !important;
+
+
+}
+/* Title Section */
+
+#title {
+
+  color: #fff;
+  text-align: left;
+  margin: 0;
+
+}
+.test{
+  padding-top: 15%;
+}
+
+
+/* testimonial-section */
+
+#testimonials {
+
+  text-align: center;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: center;
+
+}
+
+.testimonial-image {
+  text-align: center;
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.img-fluid{
+width: 100%;
+}
+
+#big-heading{
+  padding:3%;
+  font-family: 'Peralta', cursive;
+}
+.big-heading-para{
+  text-align: center;
+}
+/* About Us  */
+.colored{
+  border-color: red;
+  max-width: 200px;
+    margin: 20px auto;
+    display: block;
+   border: 1px solid red;
+
+}
+h2,h3{
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.aboutUs-text{
+  text-align: center;
+  font-size: 1.2rem;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.icon{
+  margin-left: 210px;
+}
+#press {
+  background-color: #b2d8d8;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  align-items: center;
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+.press-logo:hover{
+  transform: scale(0.9);
+    transition: 0.2s all ease-in;
+}
+              /* our tournament */
+.section-heading{
+  text-align: center;
+  color: black;
+  padding: 10px;
+}
+#tournament{
+  background-color:#b2d8d8  ;
+  padding: 100px;
+
+}
+.card{
+  margin:10px;
+}
+.price{
+  color:black;
+text-align: center;
+}
+ul.list li{
+  width: auto;
+  float: left;
+  display: inline;
+}
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.tournament-images{
+  align-items: center;
+  width:100%;
+  padding: 20px 10px;
+}
+.about-us{
+  margin-top:60px;
+}
+.tournament-images:hover{
+  transform: scale(0.9);
+    transition: 0.2s all ease-in;
+}
+.icon:hover{
+  color: teal;
+}
+/* Footer Section */
+
+
+.social-icon {
+  margin: 40px 10px;
+}
+
+
+  #footer {
+    text-align: center;
+  }
